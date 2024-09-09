@@ -1,5 +1,7 @@
-## Restaurar la Base de Datos
+## Estructura de API
+![](https://github.com/davidprado4021/MonsterDataSync/blob/main/MonsterDataSyncDOC.png)
 
+## Restaurar la Base de Datos
 Para restaurar la base de datos, sigue estos pasos:
 
 1. Abre SQL Server Management Studio (SSMS).
