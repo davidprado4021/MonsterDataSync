@@ -24,7 +24,7 @@ Este proyecto tiene como objetivo desarrollar una API en .NET que realice solici
 ### Tecnologías Utilizadas
 - Backend: .NET Core
 - Base de Datos: SQL Server
-- API Externa: Monster Hunter World API (mhw-db.com)
+- API Externa: Monster Hunter World API (mhw-db.com/skills)
 
 ### Alcance del Proyecto
 - **Fase 1:** Configuración del entorno de desarrollo y creación de la estructura básica del proyecto.
