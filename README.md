@@ -1,6 +1,3 @@
-## Estructura de API
-![](https://github.com/davidprado4021/MonsterDataSync/blob/main/MonsterDataSyncDOC.png)
-
 # Implementación de una API en .NET para la Gestión de Datos de Monster Hunter World
 
 ## Descripción del Proyecto
@@ -44,3 +41,6 @@ Para restaurar la base de datos, sigue estos pasos:
 2. Conéctate a tu servidor SQL Server.
 3. Abre el archivo `DatabaseScripts/MonsterDataSync.sql`.
 4. Ejecuta el script para crear y poblar la base de datos.
+
+## Estructura de API
+![](https://github.com/davidprado4021/MonsterDataSync/blob/main/MonsterDataSyncDOC.png)
