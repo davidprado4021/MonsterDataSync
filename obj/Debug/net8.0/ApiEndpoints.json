@@ -1,0 +1,148 @@
+[
+  {
+    "ContainingType": "EFPractica01.Controllers.SkillsController",
+    "Method": "GetAll",
+    "RelativePath": "api/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[MonsterDataSync.DTOs.ViewSkillsDtos, MonsterDataSync, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EFPractica01.Controllers.SkillsController",
+    "Method": "GetSkillDTOs",
+    "RelativePath": "api/skills/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MonsterDataSync.DTOs.ViewSkillsDtos",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EFPractica01.Controllers.SkillsController",
+    "Method": "PutSkillDTOs",
+    "RelativePath": "api/skills/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "skillsdtos",
+        "Type": "EFPractica01.DTOs.SkillsDTOs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EFPractica01.Controllers.SkillsController",
+    "Method": "DeleteSKillDTOs",
+    "RelativePath": "api/skills/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EFPractica01.Controllers.SkillsController",
+    "Method": "GetRanksDTOs",
+    "RelativePath": "api/skills/ranks/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "MonsterDataSync.DTOs.RanksDTOs",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EFPractica01.Controllers.SkillsController",
+    "Method": "PutRanks",
+    "RelativePath": "api/skills/ranks/{Id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "ranksDTOs",
+        "Type": "MonsterDataSync.DTOs.RanksUPDTOs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EFPractica01.Controllers.SkillsController",
+    "Method": "DeleteRanks",
+    "RelativePath": "api/skills/ranks/{Id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

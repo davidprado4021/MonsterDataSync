@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DirectedGraph GraphDirection="RightToLeft" Layout="Sugiyama" ZoomLevel="-1" xmlns="http://schemas.microsoft.com/vs/2009/dgml">
+  <Nodes>
+    <Node Id="Api/Delet/Ranks/Id" Category="Comment" Bounds="738.436666666667,191,132.223333333333,25.96" Label="[HttpPut(&quot;skills/{Id}&quot;)]">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="Api/Delete/Ranks/Id" Category="Comment" Bounds="730.116666666667,247,148.863333333333,25.96" Label="[HttpDelete(&quot;skills/{Id}&quot;)]">
+      <Category Ref="Category6" />
+    </Node>
+    <Node Id="Api/Delete/Skills/Id" Category="Comment" Bounds="713.715,303,181.666666666667,25.96" Label="[HttpDelete(&quot;skills/ranks/{Id}&quot;)]">
+      <Category Ref="Category6" />
+    </Node>
+    <Node Id="Api/Get/AllData" Category="Comment" Bounds="444.678333333334,0,99.73,25.96" Label="[HttpGet(&quot;All&quot;)]">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="Api/Get/Ranks/Id" Category="Comment" Bounds="427.931666666667,74,133.223333333333,25.96" Label="[HttpGet(&quot;skills/{Id}&quot;)]">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="Api/Get/Skills/Id" Category="Comment" Bounds="411.53,191,166.026666666667,25.96" Label="[HttpGet(&quot;skills/ranks/{Id}&quot;)]">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="Api/Put/Id" Category="Comment" Bounds="412.03,308,165.026666666667,25.96" Label="[HttpPut(&quot;skills/ranks/{Id}&quot;)]">
+      <Category Ref="Category9" />
+    </Node>
+    <Node Id="BackGroundService" Category="Comment" Bounds="433.606666666667,534,121.873333333333,25.96" />
+    <Node Id="Controller" Category="Comment" Bounds="609.244166666667,230,72.7833333333333,25.9600000000001">
+      <Category Ref="Category8" />
+    </Node>
+    <Node Id="DTOs" Category="Comment" Bounds="303.804166666667,464,50,25.96">
+      <Category Ref="Category10" />
+    </Node>
+    <Node Id="Entity" Category="Comment" Bounds="97.8575000000001,464,50,25.96">
+      <Category Ref="Category10" />
+    </Node>
+    <Node Id="HtmlApi/MHW/Skills" Category="Comment" Bounds="277.765833333333,565.02,102.076666666667,41.9200000000001" Label="        Html&#xD;&#xA;api/MHW/Skills" />
+    <Node Id="Mappers" Category="Comment" Bounds="179.545,464,66.5333333333333,25.96">
+      <Category Ref="Category2" />
+    </Node>
+    <Node Id="ORM(EF)" Category="Comment" Bounds="0,464,66.1700000000001,25.96">
+      <Category Ref="Category10" />
+    </Node>
+    <Node Id="Service" Category="Comment" Bounds="456.411666666667,425,76.2633333333333,25.96" Label="Repository">
+      <Category Ref="Category8" />
+    </Node>
+  </Nodes>
+  <Links>
+    <Link Source="Api/Delet/Ranks/Id" Target="Controller" Bounds="690.931884765625,216.960006713867,78.1121215820313,24.0809936523438" />
+    <Link Source="Api/Delete/Ranks/Id" Target="Controller" Bounds="672.488525390625,260.963745117188,57.7254638671875,11.0728759765625" />
+    <Link Source="Api/Delete/Skills/Id" Target="Controller" Bounds="661.289123535156,263.057769775391,52.4259033203125,42.932373046875" />
+    <Link Source="Api/Get/Ranks/Id" Target="Controller" Bounds="527.445007324219,60.1674995422363,112.385070800781,161.139003753662" />
+    <Link Source="Api/Get/Skills/Id" Target="Controller" Bounds="527.445007324219,177.979995727539,104.490417480469,44.5419921875" />
+    <Link Source="Api/Put/Id" Target="Controller" Bounds="527.445007324219,261.344390869141,93.5941162109375,46.6556091308594" />
+    <Link Source="BackGroundService" Target="DTOs" Bounds="360.910552978516,493.781555175781,96.9709167480469,40.2184448242188" />
+    <Link Source="BackGroundService" Target="HtmlApi/MHW/Skills" Bounds="373.317626953125,559.960021972656,104.774871826172,52.0199584960938" />
+    <Link Source="Controller" Target="Api/Delet/Ranks/Id" Bounds="654.328369140625,177.979995727539,106.262817382813,52.0200042724609" />
+    <Link Source="Controller" Target="Api/Get/AllData" Bounds="553.34326171875,14.0624132156372,89.3446655273438,215.937586784363" />
+    <Link Source="Controller" Target="Api/Get/Ranks/Id" Bounds="535.817016601563,103.262847900391,104.023803710938,126.737152099609" />
+    <Link Source="Controller" Target="Api/Get/Skills/Id" Bounds="535.817016601563,220.262847900391,73.4271240234375,22.0718231201172" />
+    <Link Source="Controller" Target="Api/Put/Id" Bounds="535.817016601563,255.960006713867,104.023803710938,89.3950042724609" />
+    <Link Source="Controller" Target="Service" Bounds="535.817016601563,255.960006713867,106.921325683594,208.484298706055" />
+    <Link Source="DTOs" Target="Mappers" Bounds="236.204574584961,489.959991455078,70.3398590087891,16.27001953125" />
+    <Link Source="DTOs" Target="Service" Bounds="339.934020996094,411.980010986328,113.335601806641,52.0199890136719" />
+    <Link Source="Entity" Target="Mappers" Bounds="136.451141357422,447.730010986328,52.9676055908203,16.2699890136719" />
+    <Link Source="Entity" Target="ORM(EF)" Bounds="56.4073333740234,489.959991455078,52.8565292358398,16.27001953125" />
+    <Link Source="HtmlApi/MHW/Skills" Target="BackGroundService" Bounds="364.820983886719,547.878784179688,59.8073425292969,17.1412353515625" />
+    <Link Source="Mappers" Target="DTOs" Bounds="229.156616210938,447.730010986328,69.6130676269531,16.2699890136719" />
+    <Link Source="Mappers" Target="Entity" Bounds="142.960327148438,489.959991455078,53.5063781738281,16.27001953125" />
+    <Link Source="ORM(EF)" Target="Entity" Bounds="49.3694915771484,447.730010986328,53.3851852416992,16.2699890136719" />
+    <Link Source="Service" Target="Controller" Bounds="527.445007324219,264.494293212891,110.986938476563,160.505706787109" />
+    <Link Source="Service" Target="DTOs" Bounds="362.804168701172,450.959991455078,98.8374938964844,26.0186462402344" />
+  </Links>
+  <Categories>
+    <Category Id="Category10" Label="Category 10" Background="#FF672878" IsTag="True" />
+    <Category Id="Category2" Label="Category 2" Background="#FF339933" IsTag="True" />
+    <Category Id="Category6" Label="Category 6" Background="#FFA1260D" IsTag="True" />
+    <Category Id="Category8" Label="Category 8" Background="#FF44CCCC" IsTag="True" />
+    <Category Id="Category9" Label="Category 9" Background="#FF00539C" IsTag="True" />
+    <Category Id="Comment" Label="Comment" Description="Represents a user defined comment on the diagram" CanBeDataDriven="True" IsProviderRoot="False" NavigationActionLabel="Comments" />
+  </Categories>
+  <Properties>
+    <Property Id="Background" Label="Background" Description="The background color" DataType="System.Windows.Media.Brush" />
+    <Property Id="Bounds" DataType="System.Windows.Rect" />
+    <Property Id="CanBeDataDriven" Label="CanBeDataDriven" Description="CanBeDataDriven" DataType="System.Boolean" />
+    <Property Id="Expression" DataType="System.String" />
+    <Property Id="GraphDirection" DataType="Microsoft.VisualStudio.Diagrams.Layout.LayoutOrientation" />
+    <Property Id="GroupLabel" DataType="System.String" />
+    <Property Id="IsEnabled" DataType="System.Boolean" />
+    <Property Id="IsProviderRoot" Label="IsProviderRoot" Description="IsProviderRoot" DataType="System.Boolean" />
+    <Property Id="IsTag" DataType="System.Boolean" />
+    <Property Id="Label" Label="Label" Description="Displayable label of an Annotatable object" DataType="System.String" />
+    <Property Id="Layout" DataType="System.String" />
+    <Property Id="NavigationActionLabel" Label="NavigationActionLabel" Description="NavigationActionLabel" DataType="System.String" />
+    <Property Id="TargetType" DataType="System.Type" />
+    <Property Id="Value" DataType="System.String" />
+    <Property Id="ValueLabel" DataType="System.String" />
+    <Property Id="ZoomLevel" DataType="System.String" />
+  </Properties>
+  <Styles>
+    <Style TargetType="Node" GroupLabel="Category 5" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category5')" />
+      <Setter Property="Background" Value="#FF9B4F96" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 10" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category10')" />
+      <Setter Property="Background" Value="#FF672878" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 9" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category9')" />
+      <Setter Property="Background" Value="#FF00539C" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 8" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category8')" />
+      <Setter Property="Background" Value="#FF44CCCC" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 1" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category1')" />
+      <Setter Property="Background" Value="#FFE51400" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 6" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category6')" />
+      <Setter Property="Background" Value="#FFA1260D" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Category 2" ValueLabel="Has category">
+      <Condition Expression="HasCategory('Category2')" />
+      <Setter Property="Background" Value="#FF339933" />
+    </Style>
+    <Style TargetType="Node" GroupLabel="Comment" ValueLabel="Has comment">
+      <Condition Expression="HasCategory('Comment')" />
+      <Setter Property="Background" Value="#FFFFFACD" />
+      <Setter Property="Stroke" Value="#FFE5C365" />
+      <Setter Property="StrokeThickness" Value="1" />
+      <Setter Property="NodeRadius" Value="2" />
+      <Setter Property="MaxWidth" Value="250" />
+    </Style>
+  </Styles>
+</DirectedGraph>
